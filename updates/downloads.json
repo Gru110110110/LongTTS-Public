@@ -1,0 +1,16 @@
+{
+  "platforms": {
+    "darwin-aarch64": {
+      "version": "0.5.7",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.5.7/LongTTS_0.5.7_aarch64.dmg"
+    },
+    "darwin-x86_64": {
+      "version": "0.5.7",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.5.7/LongTTS_0.5.7_x64.dmg"
+    },
+    "windows-x86_64": {
+      "version": "0.5.7",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.5.7/LongTTS_0.5.7_x64-setup.exe"
+    }
+  }
+}
