@@ -1,11 +1,11 @@
 {
-  "version": "0.6.1",
+  "version": "0.6.2",
   "notes": "请查看 GitHub Release 中的更新说明。",
-  "pub_date": "2026-10-01T15:28:35.197Z",
+  "pub_date": "2026-10-04T04:26:58.392Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkNCNFNNRUNPMTQyMnlDOXdXaDcwQXhEZ2RKTHhHMTBQMXIwWUJZUSsxWlZWdXh1S0RPRitTTktDNWpJL3NtU1NMT3pjYndCU1dVWWYzejFiRnVnWGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODY4MDI0CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CkdBUk9LQ0VJR2tNdFVwZ2hEUkdFZ2J3L1hMZThnYWp6VWlPSmFSVXFsRmxnOC9BMEN5aGVBak9SUGVhQmd0VFpvY05LLzJUZE1RR3ZNTm5pSlJqOENRPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.1/LongTTS_0.6.1_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkQyWGtRZjBxdjVNb2hMWE9xUy80TE5OajE2a0hKZ2xEVXFMWm9ETFlXN1p3WWZPN3RwZFY0c2tXMGM1R0FpRjBIWnBoSDNpUU1jc2JDbjJ1WDd5NHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDg3NDYzCWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CjFRS1pTakFDaVRYZEpxK05hampYejhPRk5DVytOQ0Y2bks2Q3padmRuZXo5MGNMUGI2YWNqR1RNUGgzV2RZeUZ3eE1naUVuYlEvYzNxYkwwV2U0MER3PT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.2/LongTTS_0.6.2_aarch64.app.tar.gz"
     }
   }
 }

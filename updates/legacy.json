@@ -1,19 +1,19 @@
 {
-  "version": "0.6.1",
+  "version": "0.6.2",
   "notes": "请查看 GitHub Release 中的更新说明。",
-  "pub_date": "2026-10-01T15:28:35.197Z",
+  "pub_date": "2026-10-04T04:26:58.392Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkNCNFNNRUNPMTQyMnlDOXdXaDcwQXhEZ2RKTHhHMTBQMXIwWUJZUSsxWlZWdXh1S0RPRitTTktDNWpJL3NtU1NMT3pjYndCU1dVWWYzejFiRnVnWGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODY4MDI0CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CkdBUk9LQ0VJR2tNdFVwZ2hEUkdFZ2J3L1hMZThnYWp6VWlPSmFSVXFsRmxnOC9BMEN5aGVBak9SUGVhQmd0VFpvY05LLzJUZE1RR3ZNTm5pSlJqOENRPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.1/LongTTS_0.6.1_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkQyWGtRZjBxdjVNb2hMWE9xUy80TE5OajE2a0hKZ2xEVXFMWm9ETFlXN1p3WWZPN3RwZFY0c2tXMGM1R0FpRjBIWnBoSDNpUU1jc2JDbjJ1WDd5NHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDg3NDYzCWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CjFRS1pTakFDaVRYZEpxK05hampYejhPRk5DVytOQ0Y2bks2Q3padmRuZXo5MGNMUGI2YWNqR1RNUGgzV2RZeUZ3eE1naUVuYlEvYzNxYkwwV2U0MER3PT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.2/LongTTS_0.6.2_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkcyMjhsUkloZlBMemRsQURiSGRXTnJhOXFCelJ3Tk5rZlZ5bUFlTjhxdDlaRDBSd1VTSlA4WHFZV1BXNFBsMFYrdng5VDdPMWxUcXYrc0kzYzhERXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODY4NDI5CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CnlUdUNOSTYzV21wYlNscGY0cjhHOEErUVdPa0tEdUswY0dJZzIvSWIrNDNvei9PL3M5c2llUS8yZXZJVDd6dzhXdXI0K1Z6c1BFTlNjbUpscktKb0R3PT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.1/LongTTS_0.6.1_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkFTdHZRRjd2dkZtT2p2VmJ3ZlVzbGNURzBKV1F5VU1xK2cyeitjd1FBSE5LZkNtZFg4UDRWVlROdWhvV3ZTNlJBVFhMdFhMTzhxVnlQSzMrU1FObXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDg3ODcxCWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6ClZTSTdkSVM3d3lFYU03eVBQbVBvL2NZSVR4dHZDQmhLL1g2T1ZUekM1OXRxWWp0Y1plWURXVEpUQXdCVFlVVDg0SXU2ZHgvVHliQXIyUUR4MzZYQUNnPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.2/LongTTS_0.6.2_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkVjTWtCc0h0VUcyMlJZT1FpbGMxY2xjQ1lGTE1mVzNRMk1PcE5KYi9wdUwxZHVWODkyN2lwcTU0N2lEZ3IzQ3hPZTVudTAwSml2RlVqT0UyUkt4WmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODY4NDQ5CWZpbGU6TG9uZ1RUU18wLjYuMV94NjQtc2V0dXAuZXhlCks2NTdTbTdrdXRUb1ZUZERsQ1k0M1BmT0ZjWXlmNHhVbThuRHZKNEhOWEpERTcrWFpNTHE2WVVpdlBRZmQ1R2c2TFYxVGg4cEtnNVZMRGd1N1A2OUFnPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.1/LongTTS_0.6.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkZ2eHJZY2duT255cERCSXhNTUk0WE5ERVo3TWZKUlBrU2U0YS9LdUNYZUh1ZnRaTndlNHFrUXcwa2U5U0FtaU85Z2NheEY4VnpDam0vYmMrQndvMkFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMDg3OTY4CWZpbGU6TG9uZ1RUU18wLjYuMl94NjQtc2V0dXAuZXhlCnlXM2NvWUZJbko1UVliTHdiSUkvaXJPMWxQZDVpQW14RGFlSU5kdnJOU2wvekdVNjY5T050V0g5TmxoYSt3dUVPTnpQNWVPWWwrVmJRMjcvb05haURBPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.2/LongTTS_0.6.2_x64-setup.exe"
     }
   }
 }
