@@ -1,19 +1,19 @@
 {
-  "version": "0.6.3",
-  "notes": "请查看 GitHub Release 中的更新说明。",
-  "pub_date": "2026-10-05T08:28:21.843Z",
+  "version": "0.6.4",
+  "notes": "新增与优化\n\n- Windows 新增 Qwen 0.6B 的 CPU 推理支持，无需 NVIDIA 显卡即可部署并生成语音；CPU 模式需较多内存，生成速度取决于处理器性能。\n- 新增已部署模型管理，可在设置中查看并卸载不再使用的模型，释放模型占用的磁盘空间。\n- 新增数据目录入口，可在设置中直接打开当前使用的数据文件夹，方便查找应用保存的文件。\n- 优化音频下载，下载完成后可通过提示或下载按钮直接定位音频文件所在位置。\n- 优化历史记录详情，展示生成音频使用的语音模型和生成耗时，方便回看与比较。\n- 优化音频波形展示和播放倍速菜单，方便查看音频及调整试听速度。\n- 优化缺少参考文本时的操作引导，可更方便地跳转到对应音色补充参考文本。\n\n问题修复\n\n- 修复了 BUG。",
+  "pub_date": "2026-10-08T18:47:03.793Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkhqRDBBYjcrVFlkYkcvQ25WbnIwK2pSZTlUSnEwWll5S2lQYzJQVmU1Y21mdHd3VDVIRlpDaWwxNUp4ZHY1LzlhajBSd2M1TDRodHAvVjRRbXhlb1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTg4MjkwCWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6ClQrMjl1TW5kSDVVVExHUzVOMjhPOUZLUG1mekNxWFFidXhpTTdPQkR1SW1zZWlhTThTZVJWSUNWMTltTWNKdTcxV2RoN3RCU3A0S1BDMVVsa2F2ckNRPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.3/LongTTS_0.6.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkVrVlVEQWNKVTlrSXFkUFV1TFJaK3JBNE9BdUY2cXJueUh6cWE1UysxNUhDamhZbFh3UXRFUkdpdjhYRDAvNWc5K3FQbTZhY2Q1UlpzaXhFUTBwZ3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDg0ODE4CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6ClVmekIwc3ZlV2IvRnFSMU5qcnlKbUNtRnlwTlhrYitQNnBKRnBjVGJRTjhENm9FTjVpUW10eVI1Unp5enFPU2tyWGhVR3gxZkxJRW1vZWxEa2RHWEFRPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.4/LongTTS_0.6.4_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkgzYXk3SlVndndPMTVmdHFnQmR0RkpTWkJ6ejBGRFdJTnFZbCtpSURTdXcwS3Z5c2gxQ25NMlFoemRDNkhMZm5wWDNKNWdpeFkyaEhXRmRpTk9nZmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTg4ODQ1CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6ClFiZ3hmVk1wZmg1OWcxV2Z4QTNSenBTVDBZZ2hZN2g1bllzTEM4djJKbFhBK0s2VFRhQ2dyYVQ4S2U0bm0yTWV5SDRZVzgyMDJSdnBEdG5pNnVUdERRPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.3/LongTTS_0.6.3_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkQrNktXR1Jnb3hTci9KbFZQbHdIWWhHU1FEOVRjLzQzVUU3MUcySlFNeTdUMGs3bGVxNFBvSnRNUnhxY3pDaitjMWpBblc2ZURYZmR6YTh1ejNuSUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDg0OTM0CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CklyU3IycnZQc0NYaTFQeFZkSm5sMndNMVJ6UnpGMS96dVdhTTFnT3hLTndLTStYcWV1RWQyM1VuenFUSWtDbkJISGEzTnVSYm9SS0k3NG93bkRsZURBPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.4/LongTTS_0.6.4_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkduSDY1YkthTmlmbzVlK2FxM216aDJvNW0xS0w1KzhVQ2ZYYW5TOVd1aTdpb3NWR2g0enVsRFgxNW5NOVIxMThWQlo1b1cvNnBKTERtc25PbGJSTGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMTg4NTQ4CWZpbGU6TG9uZ1RUU18wLjYuM194NjQtc2V0dXAuZXhlCm01MGN0RVNhR0VzT250VG5CNmVzK1JCNld0YXFTT1d6NEpKekFXNEVuY0tIY1F6SWU0V0J2RFk5V0JjUi92Szl0WmpqcVUzbC80MWJZaW9xMm5rVkN3PT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.3/LongTTS_0.6.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkswcTJTcG00OVRGQ3l0ZlBxRDF2N21EenVPNktsYXhzV1ZmZ0lhQ2FwdGNkcmtRN05IUTIzOVU5dU5xUTNYREtxeWJmdVdZWXZLU0FHelY4cldaOFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDg1MTY2CWZpbGU6TG9uZ1RUU18wLjYuNF94NjQtc2V0dXAuZXhlCjJXTm5QdXk0U0tSN3VueDF5N0s2WUQ1Nnhpclp3aDZ5WjNsYTNmdEVkRWtudlNoY1QwRSs2dllQdXVjY3ZaZVYxU0ZxRlA3SWNNV3hrdVhaK0pjdUJBPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.4/LongTTS_0.6.4_x64-setup.exe"
     }
   }
 }
