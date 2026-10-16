@@ -1,11 +1,11 @@
 {
-  "version": "0.6.5",
-  "notes": "新增与优化\n\n- 新增运行环境修复入口，已部署模型可重新部署或修复运行环境，方便处理依赖损坏和部署中断。\n- 完善模型准备与首次加载时的取消操作，可在创作页或设置中停止正在进行的部署，保留可继续使用的下载文件。\n- 优化 Qwen 模型下载与恢复，支持断点续传、镜像失败后切换下载源，并复用已完整下载的模型，减少重复下载。\n- 完善部署诊断，提供 DNS、代理、连接失败和模型加载阶段等信息，方便排查部署问题；导出的诊断信息会隐藏代理凭据。\n- 完善官网本地配音使用说明和英文授权购买指引，方便了解离线长文本配音与小说转音频的使用方式。\n\n问题修复\n\n- 修复了 BUG。",
-  "pub_date": "2026-10-16T02:53:29.754Z",
+  "version": "0.6.6",
+  "notes": "## 问题修复\n\n- 修复部分旧款 AMD 电脑部署千问 0.6B 时在 88% 退出的问题。更新可保留现有模型缓存，无需重新下载已经校验通过的模型。",
+  "pub_date": "2026-10-16T11:36:15.858Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkNVSVpoRkdETmtjU2tUWTlFTFVQVXRzcXZxRk5nZTZJZENhV2FwZWFhSjk0NVJJR0pvQ1h6RWNFMVlaellyTUFJK0w5RGxFcWNhY1ozR2UrWm1DQkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTE5MTUyCWZpbGU6TG9uZ1RUU18wLjYuNV94NjQtc2V0dXAuZXhlCnFxZHVGKytuZ2hsNHBKaDhWZ0FCSlIzS1BqWHhUbDMyRE5XaDU0MGlVQW9PRDBTUGh0UjF6YmR4Sm1MdEhaTTFGbkZ4TG42QmNqTzZ3RWNVNWpsZkNRPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.5/LongTTS_0.6.5_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkg5MzdDY0FFd0V4TEphRkI3TkdGcVhvMzg1TmhzTEExRThsZGRPRXhudkZpNXlmVzJXek1kdEUyaVJ2c29HdHB1K1dFSkUrRWxCL0NTa0VsMjVveXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTUwNTM1CWZpbGU6TG9uZ1RUU18wLjYuNl94NjQtc2V0dXAuZXhlClRFY21QVlN0WWNCd0J2U2Y5dDFHMmRwdlZRKzdKOXVhdUs1QXQ5a0VwU0kvdDlobHpmbVVVcW9Bd2dzWXFDQjhWQVZlbHdGeWlPL3d5VGhiS05vbkF3PT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.6/LongTTS_0.6.6_x64-setup.exe"
     }
   }
 }
