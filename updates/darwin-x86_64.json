@@ -1,11 +1,11 @@
 {
-  "version": "0.6.4",
-  "notes": "新增与优化\n\n- Windows 新增 Qwen 0.6B 的 CPU 推理支持，无需 NVIDIA 显卡即可部署并生成语音；CPU 模式需较多内存，生成速度取决于处理器性能。\n- 新增已部署模型管理，可在设置中查看并卸载不再使用的模型，释放模型占用的磁盘空间。\n- 新增数据目录入口，可在设置中直接打开当前使用的数据文件夹，方便查找应用保存的文件。\n- 优化音频下载，下载完成后可通过提示或下载按钮直接定位音频文件所在位置。\n- 优化历史记录详情，展示生成音频使用的语音模型和生成耗时，方便回看与比较。\n- 优化音频波形展示和播放倍速菜单，方便查看音频及调整试听速度。\n- 优化缺少参考文本时的操作引导，可更方便地跳转到对应音色补充参考文本。\n\n问题修复\n\n- 修复了 BUG。",
-  "pub_date": "2026-10-08T18:47:03.793Z",
+  "version": "0.6.5",
+  "notes": "新增与优化\n\n- 新增运行环境修复入口，已部署模型可重新部署或修复运行环境，方便处理依赖损坏和部署中断。\n- 完善模型准备与首次加载时的取消操作，可在创作页或设置中停止正在进行的部署，保留可继续使用的下载文件。\n- 优化 Qwen 模型下载与恢复，支持断点续传、镜像失败后切换下载源，并复用已完整下载的模型，减少重复下载。\n- 完善部署诊断，提供 DNS、代理、连接失败和模型加载阶段等信息，方便排查部署问题；导出的诊断信息会隐藏代理凭据。\n- 完善官网本地配音使用说明和英文授权购买指引，方便了解离线长文本配音与小说转音频的使用方式。\n\n问题修复\n\n- 修复了 BUG。",
+  "pub_date": "2026-10-16T02:53:29.754Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkQrNktXR1Jnb3hTci9KbFZQbHdIWWhHU1FEOVRjLzQzVUU3MUcySlFNeTdUMGs3bGVxNFBvSnRNUnhxY3pDaitjMWpBblc2ZURYZmR6YTh1ejNuSUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDg0OTM0CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CklyU3IycnZQc0NYaTFQeFZkSm5sMndNMVJ6UnpGMS96dVdhTTFnT3hLTndLTStYcWV1RWQyM1VuenFUSWtDbkJISGEzTnVSYm9SS0k3NG93bkRsZURBPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.4/LongTTS_0.6.4_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkI1RWFGVDZSVkZIQ1ZqSWtKMGxCaUxvcDhpN0RJN2JvbFVMRzhzNm1BVy9TS2hzUUVmWHhpNGxKVkc4V0srYVZObExRWUNqR3lYU0VnY3VNQU11OHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTE5MTU3CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CmswZ1pyVEZHZThyNXB0aUY4ZnFtV0d4aUpaR3lIdTVnNE9QLysrejZqSEEvK2UvTEhXQjlZbE8vMDBqU0VNK3pDYTNsdWpQcVpCRG5QK3pEOW5Kc0JBPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.5/LongTTS_0.6.5_x64.app.tar.gz"
     }
   }
 }
