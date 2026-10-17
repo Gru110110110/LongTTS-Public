@@ -1,11 +1,11 @@
 {
-  "version": "0.6.5",
-  "notes": "新增与优化\n\n- 新增运行环境修复入口，已部署模型可重新部署或修复运行环境，方便处理依赖损坏和部署中断。\n- 完善模型准备与首次加载时的取消操作，可在创作页或设置中停止正在进行的部署，保留可继续使用的下载文件。\n- 优化 Qwen 模型下载与恢复，支持断点续传、镜像失败后切换下载源，并复用已完整下载的模型，减少重复下载。\n- 完善部署诊断，提供 DNS、代理、连接失败和模型加载阶段等信息，方便排查部署问题；导出的诊断信息会隐藏代理凭据。\n- 完善官网本地配音使用说明和英文授权购买指引，方便了解离线长文本配音与小说转音频的使用方式。\n\n问题修复\n\n- 修复了 BUG。",
-  "pub_date": "2026-10-16T02:53:29.754Z",
+  "version": "0.6.7",
+  "notes": "新增与优化\n\n- 简化配音环境准备页面，根据所选模型显示“启动配音工作台”或“开始自动部署”；启动遇到运行环境故障时自动尝试一次修复，减少手动操作。\n- 下载、部署和启动期间锁定模型选择及重复操作，部署可取消；环境检测完成后显示模型列表，并在页面底部显示当前软件版本。\n- 分段预览显示实际发送给模型的朗读文本，高亮数字、网址和标识符，方便生成前核对；历史详情增加异常重试及语速、音量复听提示。\n- 按模型调整文本处理，保留千问对数字、日期和金额的上下文解释，收紧多语言模型的中文数字适配，并保护文件名、网址和编号。\n- 导入参考音频时保留较轻的开头和结尾，超长录音提示重新选择完整语句，避免自动截断造成音频与参考文本不匹配。\n\n问题修复\n\n- 修复生成未完整结束却被当作成功、分段续跑计划不一致，以及部分音频拼接、变速和导出时尾音受损的问题。\n- 修复模型部署状态识别及启动状态同步问题，减少重复安装依赖和页面持续等待。\n- Windows：修复部分旧款 AMD 电脑部署千问 0.6B 时在 88% 退出的问题，保留已校验通过的模型缓存。",
+  "pub_date": "2026-10-17T10:33:46.962Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkI1RWFGVDZSVkZIQ1ZqSWtKMGxCaUxvcDhpN0RJN2JvbFVMRzhzNm1BVy9TS2hzUUVmWHhpNGxKVkc4V0srYVZObExRWUNqR3lYU0VnY3VNQU11OHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTE5MTU3CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CmswZ1pyVEZHZThyNXB0aUY4ZnFtV0d4aUpaR3lIdTVnNE9QLysrejZqSEEvK2UvTEhXQjlZbE8vMDBqU0VNK3pDYTNsdWpQcVpCRG5QK3pEOW5Kc0JBPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.5/LongTTS_0.6.5_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZlBSTmM3WFpsYS9JZThTbVZqRFJUenZSOVFYQVQ1dUNhSHlIcmFxNVprMmxXa0xtc2RvTmR3NEFOWDNIQnoxZjJ2bUN0b3hYMCsxdW9xMVBrRC91WkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjMzMTgyCWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6ClZjSGVsMUFNQWJTblNYU1VrUktXUmpXTUl0TUd1cWdEYUsyUE1IbjhNZ1hBTFVkNHRhaXMvMUpWclM5c2s0aG10SUVWRlZMNGU1K0NpQkdObXdaNUR3PT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.7/LongTTS_0.6.7_x64.app.tar.gz"
     }
   }
 }
