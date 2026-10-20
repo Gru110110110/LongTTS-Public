@@ -1,11 +1,11 @@
 {
-  "version": "0.6.7",
-  "notes": "新增与优化\n\n- 简化配音环境准备页面，根据所选模型显示“启动配音工作台”或“开始自动部署”；启动遇到运行环境故障时自动尝试一次修复，减少手动操作。\n- 下载、部署和启动期间锁定模型选择及重复操作，部署可取消；环境检测完成后显示模型列表，并在页面底部显示当前软件版本。\n- 分段预览显示实际发送给模型的朗读文本，高亮数字、网址和标识符，方便生成前核对；历史详情增加异常重试及语速、音量复听提示。\n- 按模型调整文本处理，保留千问对数字、日期和金额的上下文解释，收紧多语言模型的中文数字适配，并保护文件名、网址和编号。\n- 导入参考音频时保留较轻的开头和结尾，超长录音提示重新选择完整语句，避免自动截断造成音频与参考文本不匹配。\n\n问题修复\n\n- 修复生成未完整结束却被当作成功、分段续跑计划不一致，以及部分音频拼接、变速和导出时尾音受损的问题。\n- 修复模型部署状态识别及启动状态同步问题，减少重复安装依赖和页面持续等待。\n- Windows：修复部分旧款 AMD 电脑部署千问 0.6B 时在 88% 退出的问题，保留已校验通过的模型缓存。",
-  "pub_date": "2026-10-17T10:33:46.962Z",
+  "version": "0.6.8",
+  "notes": "新增与优化\n\n- 新增“文本预处理”开关，可按需要保留模型原始朗读方式；预览、生成任务和按原参数重新生成均沿用对应设置。\n- 改进千问与 Chatterbox 的中文日期、时间、电话和音频格式名称朗读，支持部分全角输入，并保护网址、文件名、金额和编号。\n- Chatterbox 多语言模型增加德语、法语、西班牙语等语言的常见缩写展开，减少将缩写逐字母朗读的情况。\n- 导入参考音频时自动裁去过长的首尾静音，保留语音边缘，减少因静音过长而无法导入的情况。\n- 模型部署默认使用阿里云 PyPI 镜像，并保留官方源回退，提高依赖安装的可用性。\n\n问题修复\n\n- 修复任务计划校验、分段边界、语言识别及部分文本预处理问题。\n- 修复重新部署失败时的环境状态判断及 Docker 部署清理问题。\n- 修复音色失效后的处理、试听下载与结束状态，以及历史记录时长显示问题。",
+  "pub_date": "2026-10-20T19:16:35.205Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZk9ja1o1ODFvdVZPS1Blcm9HTHVBejVndWRrN1BiSEYycjlmdTNNQVN6RHhjdzZ6eFZsQk5LK2FnWnd1Qit2Mng0UDVzMnViZTVZazdPTFNGRDkrNUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjMyNjcyCWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6Ckp2ZndGM0FldEI4SEN3WXJiWjlPQjBaeUt3dkwxZnRPVE43djlmN2pjZUF5MUVIV29GNDZGNjA2S2xEMzlVMDNFamVqaU9qSkgwWUI0NGNqNXZiSUN3PT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.7/LongTTS_0.6.7_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkJhWHpWS1l3ZkVNNm9WOFRyK1Q3dGRqNG84T2w1Skl3ZWpGZlRucXJwMklXSW1pT2lVb0puQkJOMGRob05KMGpqaHkwdi9CN01NT3ZPQUsvQWZsOWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTIzMDk4CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6ClFLWFVaNyszbWxuRWtScDdIZUZmMEFWdkE1QS9Va3RmRWFwZ25aWHlVVlpML2ZpVVRlcGVWZDVBNUR5M3dDVXdXamI0SGg4Q2IzcmtVZmcwWFdldEJRPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.8/LongTTS_0.6.8_aarch64.app.tar.gz"
     }
   }
 }
