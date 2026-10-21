@@ -1,11 +1,11 @@
 {
-  "version": "0.6.8",
-  "notes": "新增与优化\n\n- 新增“文本预处理”开关，可按需要保留模型原始朗读方式；预览、生成任务和按原参数重新生成均沿用对应设置。\n- 改进千问与多语言模型的中文日期、时间、电话和音频格式名称朗读，支持部分全角输入，并保护网址、文件名、金额和编号。\n- 多语言模型增加德语、法语、西班牙语等语言的常见缩写展开，减少将缩写逐字母朗读的情况。\n- 导入参考音频时自动裁去过长的首尾静音，保留语音边缘，减少因静音过长而无法导入的情况。\n- 模型部署默认使用阿里云 PyPI 镜像，并保留官方源回退，提高依赖安装的可用性。\n\n问题修复\n\n- 修复任务计划校验、分段边界、语言识别及部分文本预处理问题。\n- 修复重新部署失败时的环境状态判断及 Docker 部署清理问题。\n- 修复音色失效后的处理、试听下载与结束状态，以及历史记录时长显示问题。",
-  "pub_date": "2026-10-20T19:16:35.205Z",
+  "version": "0.6.9",
+  "notes": "新增与优化\n\n- 分段预览明确显示文本预处理的开关状态及实际处理结果，方便核对将要朗读的文本。\n- 改进预处理说明与数字、标识符的高亮提示，便于识别需要试听确认的内容。",
+  "pub_date": "2026-10-21T02:07:07.437Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkJhWHpWS1l3ZkVNNm9WOFRyK1Q3dGRqNG84T2w1Skl3ZWpGZlRucXJwMklXSW1pT2lVb0puQkJOMGRob05KMGpqaHkwdi9CN01NT3ZPQUsvQWZsOWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTIzMDk4CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6ClFLWFVaNyszbWxuRWtScDdIZUZmMEFWdkE1QS9Va3RmRWFwZ25aWHlVVlpML2ZpVVRlcGVWZDVBNUR5M3dDVXdXamI0SGg4Q2IzcmtVZmcwWFdldEJRPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.8/LongTTS_0.6.8_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkJaVjVHWHlEWDRHN2sxR013SEZrTG1Mb0VtN3RFM3paUnVxdzVYNlBZTFlVVUtJNlhvcklITlRuM0w5T3lTbGx4V3B5L3JYZFRQZHd5azdhUzZVeHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQ3NjQ0CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CmlEVGEyVjdKM3krWjZMcCt4SnFvOENVWWJwZVpDZHVnTGpWb0pPYjMwYktOdTk5bTkwWUtoSk1WMEl0eHE2Y2UrK1JRVDlTSzBRMjlHbFhGM2w3MkF3PT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.9/LongTTS_0.6.9_aarch64.app.tar.gz"
     }
   }
 }
