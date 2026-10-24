@@ -1,19 +1,19 @@
 {
-  "version": "0.6.9",
-  "notes": "新增与优化\n\n- 分段预览明确显示文本预处理的开关状态及实际处理结果，方便核对将要朗读的文本。\n- 改进预处理说明与数字、标识符的高亮提示，便于识别需要试听确认的内容。",
-  "pub_date": "2026-10-21T02:07:07.437Z",
+  "version": "0.7.0",
+  "notes": "新增与优化\n\n- 按所选模型安装运行组件，减少首次部署时不必要的下载；切换模型时可补装所需组件，完成后自动启动对应模型。\n- 简化部署进度展示，在启动页、创建页面和设置中统一显示当前状态与进度。\n- 改进模型、应用更新及 macOS Homebrew 的下载处理，慢速网络下只要仍在接收数据就继续传输，并保留断点恢复和卡住后的重试。\n\n问题修复\n\n- 修复部署恢复、模型切换时的状态同步、授权状态处理及诊断日志脱敏问题。",
+  "pub_date": "2026-10-24T08:55:06.437Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkJaVjVHWHlEWDRHN2sxR013SEZrTG1Mb0VtN3RFM3paUnVxdzVYNlBZTFlVVUtJNlhvcklITlRuM0w5T3lTbGx4V3B5L3JYZFRQZHd5azdhUzZVeHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQ3NjQ0CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CmlEVGEyVjdKM3krWjZMcCt4SnFvOENVWWJwZVpDZHVnTGpWb0pPYjMwYktOdTk5bTkwWUtoSk1WMEl0eHE2Y2UrK1JRVDlTSzBRMjlHbFhGM2w3MkF3PT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.9/LongTTS_0.6.9_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkwrM0ZSQzV4b1RJdGc5NGlmQk85WFA5aGppc3NVSnFVZFpseWNPY2l6TDY4SFFXT1lPTUIwYXpERmNjekthQU5HYjRRUFdhYjZPT2lyejNiaGNLRmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODMxNDI2CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CjI2ajV4QTZFQmY0SEs1UHFWOVNnNm1TdVVHUVcyVUJZSGdJTEh6Wmx5WjU4cng5Z1ErbDErODBnd1liSURlVnJTNzdzeGg4QjN6OU9jc3FjSTB2M0N3PT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.7.0/LongTTS_0.7.0_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkw1a1RheWZWR3NxRzdYUXMxaTduS1dPRkZTajUvckU1MG9pTm1WaFhab3VrRlo3QTM2UklsWDZ3a1NjSW94cXd5REFKbDZRRDBOWEhXNVRyajE3MUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQ4MzQ5CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CmpoWnhDMTNYTExCSXV5MlBFcVBucU9xUnQvNVhxOVZNL2VML3h1OEJoUFI2aFJDT1ZqSXRraDUyTENydjRQc29tVzkxcU95Q3VKSW5VWG9JSUdobkN3PT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.9/LongTTS_0.6.9_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZk9ydEQ5Z1Y0L1NjakFod3NPbFZPL3FFeUVQU004Y1g2MERuVWJmSlR3MHgvQy9oVHk1Rm1TWTZrd0FVeHlZRXhoSzFiWkFSV280NjZOOXh3SWhSQ2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODMxNjQzCWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6Cm44VzE2QWNuYzlWbUVVSTlNNTd3L3VVb0huWDFvNW9jSEdubFBYenF5emhXY3hxNkk4N3VPZDVzWEFkREZKeC9ZemcyYTNtNEZsQ1pXNU5oKzhsK0JnPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.7.0/LongTTS_0.7.0_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkpJZjhhWk5WSlc4MGFPM1R6WHVOdENweVRqOHIrWWp0MzdoRTh0TTRldjB6dVQ5NXlaTDBCUFB6Vjh2aHVYZ3o2dUwvUW9ZNFFidXpsZERIMklmdUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQ4MzY4CWZpbGU6TG9uZ1RUU18wLjYuOV94NjQtc2V0dXAuZXhlCjMrRE9UNG90TmlZZzJTa3hSclhTMFlCaGFkWVBvNUY4eHdvSVZNREFodEtweWZ0c1BaNDBmRUx1WDVoUmhINUk1dUdGaG9FQ0gwM0lIeENGZnk0aENRPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.6.9/LongTTS_0.6.9_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZk1yWGdzRWtRR29LS2djeEhDYnVPMkxhOHlPWGt3K3N1NnBRMkNYN3FkWkU0YXQrK0I1dXdtSURCdUNiZ3FYdXQ3V1J4L1JXOUx6RERidktYbVJ6alFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODMyMDQ3CWZpbGU6TG9uZ1RUU18wLjcuMF94NjQtc2V0dXAuZXhlCnZhNldWWFFhVjlqZ0YxRXhNYmEvVXVrVVBucHE2VUY5SGRkaFNNZDBjM0djTEdBUmVFNzVKbVFSZEhSU3d0bUdzQmRoOStaQ2VmcE84SXg4SkNrOUFBPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.7.0/LongTTS_0.7.0_x64-setup.exe"
     }
   }
 }
