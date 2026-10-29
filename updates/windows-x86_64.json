@@ -1,11 +1,11 @@
 {
-  "version": "0.7.0",
-  "notes": "新增与优化\n\n- 按所选模型安装运行组件，减少首次部署时不必要的下载；切换模型时可补装所需组件，完成后自动启动对应模型。\n- 简化部署进度展示，在启动页、创建页面和设置中统一显示当前状态与进度。\n- 改进模型、应用更新及 macOS Homebrew 的下载处理，慢速网络下只要仍在接收数据就继续传输，并保留断点恢复和卡住后的重试。\n\n问题修复\n\n- 修复部署恢复、模型切换时的状态同步、授权状态处理及诊断日志脱敏问题。",
-  "pub_date": "2026-10-24T08:55:06.437Z",
+  "version": "0.7.1",
+  "notes": "新增与优化\n\n- 新增模型多连接下载，英文经典模型、多语言模型和 Qwen 模型的大文件下载可在设置中选择 1、4、8 或 16 个连接，默认使用 4 个连接。\n- 改进模型下载的断点恢复、失败重试和下载源切换，下载中断后可继续使用已校验的分块，减少重复下载。\n- 优化应用启动和模型部署后的启动流程，复用未变化的运行文件与模型校验结果，减少重复准备和加载，并细化模型加载进度提示。\n\n问题修复\n\n- 修复切换界面语言后部分语言选项未及时更新的问题。\n- 修复 Windows 下模型下载和加载后的文件校验问题，防止被改写的文件误记为已校验。Windows 更新后首次加载已有模型会重新校验文件，后续加载继续复用缓存。\n- 修复 macOS 下部署中断后的进程状态清理问题。\n- 修复配音服务启动、退出与就绪状态同步中的问题，改进启动失败时的诊断信息。",
+  "pub_date": "2026-10-29T15:19:22.811Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZk1yWGdzRWtRR29LS2djeEhDYnVPMkxhOHlPWGt3K3N1NnBRMkNYN3FkWkU0YXQrK0I1dXdtSURCdUNiZ3FYdXQ3V1J4L1JXOUx6RERidktYbVJ6alFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODMyMDQ3CWZpbGU6TG9uZ1RUU18wLjcuMF94NjQtc2V0dXAuZXhlCnZhNldWWFFhVjlqZ0YxRXhNYmEvVXVrVVBucHE2VUY5SGRkaFNNZDBjM0djTEdBUmVFNzVKbVFSZEhSU3d0bUdzQmRoOStaQ2VmcE84SXg4SkNrOUFBPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.7.0/LongTTS_0.7.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZk50SW9GN2VlZVovOVRPeTVvOWZRaE5iSnJUNzhCbzJMQlR3R2JzbmJKcnV0dGJVbmR0K25DOFNKUjRGSDkyZlVRZjlTbXc5VUt6Mjhlbi9tWDRSTlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjg2OTA3CWZpbGU6TG9uZ1RUU18wLjcuMV94NjQtc2V0dXAuZXhlCnFrUEFhNDFqdmdtOU4yT2FvNGY2VFI0T0hjMkxwa2lPY0wvbGFpTSsyRWdYT3RZYnh0czJtUDJIZ1A5Q2VXbksvU0tKL09POXo1UVdYN0UydnA0QkNnPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.7.1/LongTTS_0.7.1_x64-setup.exe"
     }
   }
 }
