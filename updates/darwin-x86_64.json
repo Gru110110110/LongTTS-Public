@@ -1,11 +1,11 @@
 {
-  "version": "0.7.1",
-  "notes": "新增与优化\n\n- 新增模型多连接下载，英文经典模型、多语言模型和 Qwen 模型的大文件下载可在设置中选择 1、4、8 或 16 个连接，默认使用 4 个连接。\n- 改进模型下载的断点恢复、失败重试和下载源切换，下载中断后可继续使用已校验的分块，减少重复下载。\n- 优化应用启动和模型部署后的启动流程，复用未变化的运行文件与模型校验结果，减少重复准备和加载，并细化模型加载进度提示。\n\n问题修复\n\n- 修复切换界面语言后部分语言选项未及时更新的问题。\n- 修复 Windows 下模型下载和加载后的文件校验问题，防止被改写的文件误记为已校验。Windows 更新后首次加载已有模型会重新校验文件，后续加载继续复用缓存。\n- 修复 macOS 下部署中断后的进程状态清理问题。\n- 修复配音服务启动、退出与就绪状态同步中的问题，改进启动失败时的诊断信息。",
-  "pub_date": "2026-10-29T15:19:22.811Z",
+  "version": "0.7.2",
+  "notes": "新增与优化\n\n- Windows 部署前可选择数据目录，模型和运行环境会下载到所选磁盘。原数据目录暂时不可用时，可重试打开，也可选择仅本次使用默认目录。\n- 改进模型和 CUDA 组件的下载恢复。遇到连接中断或下载源异常时，可尽量沿用已下载且校验通过的内容。Qwen 模型准备时会持续显示已用时间。\n- 模型下载缓慢或卡住时，可直接导出诊断包，下载会继续进行。授权、启动和音频处理失败时，也会给出更具体的处理提示。\n- 配音服务重启后会保留当前草稿，未完成的任务可从已保存的分段继续。长音频导出占用的内存更少。\n\n问题修复\n\n- 修复 Windows 启动时偶发的窗口显示问题，以及数据目录迁移、模型组件切换中断后的恢复问题。\n- 修复部分试听、音频合并和导出失败时的提示，并减少提示中暴露的敏感信息。",
+  "pub_date": "2026-11-26T03:49:18.487Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkd6K3VvN1VZK2JucmVCQ2dmakpyV0RxRkxPZml1RTM4N3c4SGdja2g1cHNRREVURWY5SDRkNmJucmwwcUFaN1k1c3l2WVVSU0czYXk0QWpxaGlpZ3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMjg2NzI2CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CmRLY3dBTEo0MlNOL1NUZ0dzU0YzNUlZbDhYamdYMlhGL1NtVWpBaUhlbkZNckl5dWQ2MXJjNVNYeWhEMVc4TTN1cmxiMTUwcHJWd1ZkQzlhMnNvd0FBPT0K",
-      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.7.1/LongTTS_0.7.1_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZUFqcklFb0YyZkt3aWJMTnAzbUd6YStibm0vdDFoWEhzS0hMU0tsU1V2TjNkblRjeG5WR2Y1VlAxejVqSnhZcXhNalhxVHNsVUpMYkhMNTdjSFkwb0ZxVE5KMWNLSlFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjY0MzY3CWZpbGU6TG9uZ1RUUy5hcHAudGFyLmd6CmFGK3IxbDh5dTRFSlJCd01EaTJycFBSUEVWYjRnSlVabkJ4ODkwb3o0ZFVmRkFSam1wSFV4emYvanZuSHNUOUtXUEppN2hwaW9jZ0FVZUpuWlRKdEJnPT0K",
+      "url": "https://github.com/Gru110110110/LongTTS-Public/releases/download/v0.7.2/LongTTS_0.7.2_x64.app.tar.gz"
     }
   }
 }
